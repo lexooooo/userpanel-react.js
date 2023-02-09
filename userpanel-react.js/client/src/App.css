@@ -1,0 +1,106 @@
+* {
+  font-family: 'Quicksand', sans-serif ;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+
+.App {
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px 0px 0px 1px grey;
+}
+
+.navbar {
+  box-shadow: 0px 0px 0px 1px grey;
+  list-style: none;
+  text-decoration: none;
+}
+
+.navpageHolder {
+  box-shadow: 0px 0px 0px 1px grey;
+}
+
+input {
+ border: 1px black;
+}
+
+li :hover {
+ background-color: rgba(255, 0, 55, 0.808);
+ color: white;
+}
+
+a {
+ text-decoration: none;
+}
+
+button {
+ cursor: pointer;
+}
+
+.userPageHolder {
+ text-align: start;
+ box-shadow: 0px 0px 0px 1px grey;
+ background-image: url('C:\Users\user\Desktop\LandMap\Mountain.png');
+ background-repeat: no-repeat;
+ background-position: bottom;
+}
+
+.useInfo {
+ display: block;
+ float: left;
+}
+
+.userInfo > button {
+ background-color: rgba(250, 78, 78, 0.808);
+ color: white;
+}
+
+.editHolder {
+ display: inline-flex;
+}
+
+span {
+ color: rgb(255, 0, 0);
+ font-family:'Courier New', Courier, monospace;
+ font-size: 32px;
+}
+
+.imgHolder {
+ display:flex;
+ width: 8vw;
+ height: 8vw;
+}
+
+.imgHolder > img {
+ max-width: 8vw;
+ max-height: 8vw;
+}
+
+.cardHolder {
+  text-align: start;
+  box-shadow: 0px 0px 0px 1px grey;
+  border-radius: 4px;
+  height: 200px;
+}
+
+.cardHolder > ul {
+  display: inline-flex;
+}
+
+.cardHolder > ul > li{
+  width: 100px;
+  height: 100px;
+}
+
+.cardHolder > ul > li > div {
+
+}
+
+.cardHolder > ul > li > div > img{
+  width: 100px;
+  height: 100px;
+  float: left;
+}
